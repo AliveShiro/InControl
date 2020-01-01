@@ -4,10 +4,10 @@ using UnityEngine;
 
 namespace InControl
 {
-	public class UnityInputDeviceProfileList : ScriptableObject
-	{
-		public static string[] Profiles = new string[] 
-		{
+    public class UnityInputDeviceProfileList : ScriptableObject
+    {
+        public static string[] Profiles = new string[] 
+        {
 			"InControl.AmazonFireTVProfile",
 			"InControl.AmazonFireTVRemote",
 			"InControl.AndroidTVProfile",
@@ -73,6 +73,6 @@ namespace InControl
 			"InControl.XboxOneMacProfile",
 			"InControl.XboxOneProfile",
 			"InControl.XboxOneWinProfile",
-		};
-	}
+        };
+    }
 }
